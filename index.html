@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Loan Calculator</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -15,7 +16,8 @@
       crossorigin="anonymous"
     />
 
-    <title>Loan Calculator</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -63,9 +65,9 @@
               </div>
             </form>
             <!--! Loader Here -->
-            <!-- <div id="loading">
+            <div id="loading">
               <img src="img/loading.gif" alt="" />
-            </div> -->
+            </div>
             <!--! Results -->
             <div id="results" class="pt-4">
               <h5>Results</h5>
@@ -88,7 +90,7 @@
                 <input
                   type="number"
                   class="form-control"
-                  id="t-payment"
+                  id="total-payment"
                   disabled
                 />
               </div>
